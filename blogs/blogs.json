@@ -1,0 +1,21 @@
+{
+  "repo": "sumeria",
+  "feeds": [
+    {
+      "source": "https://sumeria.eu/feed/",
+      "feed_url": "https://sumeria.eu/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://sumeria.eu/",
+      "feed_url": "https://sumeria.eu/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-08-01T15:49:00Z"
+}

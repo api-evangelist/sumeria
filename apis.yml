@@ -1,7 +1,13 @@
 aid: sumeria
 name: Sumeria
-description: 'Sumeria is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: payments. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Sumeria is a French fintech and mobile-first banking service created by Lydia
+  Solutions in 2024 as a consumer spinoff of the Lydia payment app. It offers free online
+  banking accounts with automatic expense categorization, thematic sub-accounts for budgeting
+  and savings, virtual and physical debit cards with no foreign-exchange fees, an interest-bearing
+  balance, and an AI assistant named Sia for account management and financial guidance.
+  Sumeria is a business-to-consumer banking product; it publishes no public developer API,
+  developer portal, or API documentation at this time, so this API Evangelist profile captures
+  its company identity and domain-security posture rather than an API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/sumeria/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +15,30 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://sumeria.eu/wp-content/uploads/2025/11/website_img.png
 tags:
 - Company
 - Payments
+- Banking
+- Fintech
+- Neobank
+- Mobile Banking
+- Consumer Finance
+- France
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +46,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sumeria-domain-security.yml
 - type: Website
   url: https://sumeria.eu/
+- type: Blog
+  url: https://sumeria.eu/blog/
+- type: HelpCenter
+  url: https://support.sumeria.eu/
+- type: Pricing
+  url: https://sumeria.eu/documents/tcs/fr/12032026/2-sumeria/2-3-sumeria-annexe-tarifs-et-limites-fr-240426.pdf
+- type: SignUp
+  url: https://app.sumeria.eu/register
+- type: Login
+  url: https://app.sumeria.eu/login
+- type: TermsOfService
+  url: https://support.sumeria.eu/l/fr/article/rietq40bob-conditions-generales-de-sumeria-pour-les-nouveaux-clients
+- type: PrivacyPolicy
+  url: https://sumeria.eu/fondamentaux/conditions-generales/politique-de-protection-des-donnees-personnelles-lydia-solutions/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
